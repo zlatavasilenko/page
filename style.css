@@ -1,20 +1,28 @@
-* {box-sizing: border-box;
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-image: url(./assets/day.jpg) ;
+  background-image: url(./assets/day.jpg);
   background-size: 100%;
- color: blanchedalmond;
-  }
-.time {padding-top: 20%;
+  color: blanchedalmond;
+}
+#time {
+  padding-top: 20%;
   font-weight: 3000;
-  font-size: 200px;
-text-shadow: 0ex;}
-.welcome {font-size: 50px;}
-.task {font-size: 35px;}
+  font-size: 100px;
+  text-shadow: 0ex;
+}
+#welcome {
+  font-size: 30px;
+}
+#task {
+  
+  font-size: 35px;
+}

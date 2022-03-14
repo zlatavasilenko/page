@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New tab</title>
-    <link rel="shortcut icon" href="assets/start-up.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css">
-    <body>
-    <div class="time">9:00</div>
-    <div class="welcome">Good morning,</div>
-    <div class="task">What is your main focus for today?</div>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New tab</title>
+  <link rel="shortcut icon" href="assets/start-up.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <div id="time"></div>
+  <h1>
+    <span id="welcome" ></span>
+    <span id="name" contenteditable="true"></span>
+  </h1>
+
+  <div class="task">What is your main focus for today?</div>
+  <span id="focus"></span>
+</body>
+<script src="script.js"></script>
+
 </html>
